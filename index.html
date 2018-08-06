@@ -3,8 +3,7 @@
 
 <head>
     
-    <script type="text/javascript" src="assets/javascript/game.jss"></script>
-    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
@@ -18,7 +17,7 @@
     </div>
 
     <div id="points">
-        <h1>## points</h1>        
+        <h1 class="winCondition"></h1>        
     </div>
 
     <div id="score">
@@ -27,11 +26,17 @@
     </div>
 
     <div id="crystals">
-        <img src="assets/images/green_rupee.jpg" alt="green rupee">
-        <img src="assets/images/blue_rupee.jpg" alt="blue rupee">
-        <img src="assets/images/red_rupee.jpg" alt="red rupee">
-        <img src="assets/images/purple_rupee.jpg" alt="purple rupee">
+        <img id="crystal1" src="assets/images/green_rupee.jpg" alt="green rupee">
+        <img id="crystal2" src="assets/images/blue_rupee.jpg" alt="blue rupee">
+        <img id="crystal3" src="assets/images/red_rupee.jpg" alt="red rupee">
+        <img id="crystal4" src="assets/images/purple_rupee.jpg" alt="purple rupee">
     </div>
+
+    <div id="total">
+        <h1 class="totalScore"></h1>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
