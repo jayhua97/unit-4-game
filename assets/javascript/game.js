@@ -1,5 +1,7 @@
 $(document).ready(function() {
     var totalPoints = 0;
+    var wins = 0;
+    var losses = 0;
     var crystalsBtn = $("#crystals");
     var crystalOneBtn = $("#crystal1");
     var crystalTwoBtn = $("#crystal2");
@@ -60,6 +62,10 @@ $(document).ready(function() {
         console.log("aaa", $(this).attr("data-value"));
     })
 
+    
+
     $(".winCondition").text(requiredPoints);
+    $(".wins").text("Wins: " + wins);
+    $(".losses").text("Losses: " + losses );
 
 })
