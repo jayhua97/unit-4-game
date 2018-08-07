@@ -1,0 +1,13 @@
+img {
+    height: 300px;
+    width: 200px;
+}
+
+body {
+    background-color: #555555;
+}
+
+.jumbotron {
+    size: 10%;
+    background-color: #957963;
+}

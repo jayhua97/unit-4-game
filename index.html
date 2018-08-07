@@ -2,39 +2,49 @@
 <html>
 
 <head>
-    
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
 <body>
-    <div id="title">
-        <h1>Crystal Collector!</h1>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+                <div id="title">
+                        <h1>Crystal Collector!</h1>
+                    </div>
+                
+                    <div id="instructions">
+                        <br>
+                        <h1>Each crystal is assigned a random value between 2 and 12.</h1>
+                        <h1>Reach the required points to win!</h1>
+                        <br>
+                    </div>
+                
+                    <div id="points">
+                        <h1 class="winCondition"></h1>        
+                    </div>
+                
+                    <div id="score">
+                        <h1 class="wins">Wins: 0</h1>
+                        <h1 class="losses">Losses: 0</h1>
+                    </div>
+                
+                    <div id="crystals">
+                        <img id="crystal1" src="assets/images/green_rupee.jpg" alt="green rupee">
+                        <img id="crystal2" src="assets/images/blue_rupee.jpg" alt="blue rupee">
+                        <img id="crystal3" src="assets/images/red_rupee.jpg" alt="red rupee">
+                        <img id="crystal4" src="assets/images/purple_rupee.jpg" alt="purple rupee">
+                    </div>
+                
+                    <div id="total">
+                        <h1 class="totalScore"></h1>
+                    </div>
+        </div>
     </div>
 
-    <div id="insructions">
-        <h1>balakdsfoasdfk</h1>
-    </div>
-
-    <div id="points">
-        <h1 class="winCondition"></h1>        
-    </div>
-
-    <div id="score">
-        <h1 class="wins">Wins: 0</h1>
-        <h1 class="losses">Losses: 0</h1>
-    </div>
-
-    <div id="crystals">
-        <img id="crystal1" src="assets/images/green_rupee.jpg" alt="green rupee">
-        <img id="crystal2" src="assets/images/blue_rupee.jpg" alt="blue rupee">
-        <img id="crystal3" src="assets/images/red_rupee.jpg" alt="red rupee">
-        <img id="crystal4" src="assets/images/purple_rupee.jpg" alt="purple rupee">
-    </div>
-
-    <div id="total">
-        <h1 class="totalScore"></h1>
-    </div>
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>

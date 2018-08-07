@@ -11,7 +11,7 @@ $(document).ready(function() {
     function startGame() {
         totalPoints = 0;
         requiredPoints = Math.floor(Math.random() * 101) + 19;
-        $(".winCondition").text(requiredPoints);
+        $(".winCondition").text("Required points: " + requiredPoints);
         console.log(requiredPoints);    
     }
 
